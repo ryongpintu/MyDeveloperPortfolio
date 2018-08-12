@@ -1,0 +1,66 @@
+.btn{
+
+         font-size: .8rem;
+         font-weight: 300;
+         text-decoration: none;
+
+    &__project{
+	    color:#f9f9f9;
+	    width: fit-content;
+		border: 2px solid #f9f9f9;
+		padding: 12px 30px 12px 30px;
+		border-radius: 30px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+
+        @mixin atMedium{
+             font-weight: 400;
+        	float: left;
+        }
+    }
+
+    &__read-article{
+
+    background: #f0f0f0;
+    color: #393939;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: .8rem;
+    font-weight: normal;
+    padding: 14px 20px;
+    transform: scale(1.2);
+    transition: all 0.5s ease-out;
+    &:hover{
+
+   background: linear-gradient(to right ,#1573d2a6, #32aed67a, #09e04bd4);
+    color: #FFF;
+    
+    transform: scale(1);
+    }
+    
+
+    @mixin atMedium{
+
+    font-size: .9rem;
+    font-weight: normal;
+    padding: 15px 30px;
+    }
+
+    }
+
+    &__form-submit{
+
+    	padding: 1rem 1.2rem;
+    	border-radius: 30px;
+    	background-color: red;
+    	color: #FFF;
+    	font-weight: 300;
+    	font-size: .8rem;
+    	border: 1px solid red;
+    	margin-top: 1rem;
+
+    	
+    }
+}
+

@@ -1,0 +1,40 @@
+.progress-bar{
+      background-color: yellow;
+      border-radius: 5px; /* (height of inner div) / 2 + padding */
+      padding: 1px;
+      margin-top: 0;
+
+      
+      &__web{
+       background-color: #057a71;
+       width: 90%; /* Adjust with JavaScript */
+       height: 5px;
+       border-radius: 10px;
+       color: #fff;
+
+    }
+    &__photo{
+         background-color: #057a71;
+       width: 70%; /* Adjust with JavaScript */
+       height: 5px;
+       border-radius: 10px;
+       color: #fff;
+    }
+    &__content{
+       background-color: #057a71;
+       width: 60%; /* Adjust with JavaScript */
+       height: 5px;
+       border-radius: 10px;
+       color: #fff;
+    }
+    &__admin{
+       background-color: #057a71;
+       width: 80%; /* Adjust with JavaScript */
+       height: 5px;
+       border-radius: 10px;
+       color: #fff;
+    }
+    
+    
+    
+}

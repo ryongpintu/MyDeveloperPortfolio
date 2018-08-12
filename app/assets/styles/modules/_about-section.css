@@ -1,0 +1,24 @@
+.about-section{
+  
+  background-color: #FFF;
+  padding-bottom: 0;
+
+ &__image{
+
+ 	margin-top: 20px;
+ 	@mixin atMedium {
+    margin-top: 0;
+
+ 	}
+ }
+  
+	h4{
+
+		color: #757575;
+	}
+      
+	
+
+
+		
+	}

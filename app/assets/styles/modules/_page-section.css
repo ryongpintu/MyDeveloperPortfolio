@@ -1,0 +1,50 @@
+.page-section{
+
+padding: 2rem 0;
+
+ @mixin atMedium{
+
+	padding: 4rem 0;
+}
+
+  
+&-about{
+
+	background-color: #fff;
+}
+
+
+&-blog{
+        padding-top: 1rem;
+	    background: #f0f0f0;
+	    @mixin atMedium{
+
+	    	padding-top: 2rem;
+	    }
+
+
+}
+
+&__work{
+
+	@mixin atMedium{
+
+	    	padding-top: 2rem;
+	    }
+}
+
+
+&-contact{
+           
+
+          background: linear-gradient(to right ,#1573d2a6, #32aed67a, #09e04bd4);
+
+          @mixin atMedium{
+
+	    	padding-top: 2rem;
+	    }
+	    
+
+}
+
+}

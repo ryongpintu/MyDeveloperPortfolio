@@ -1,0 +1,60 @@
+.contact-form{
+     width: 100%;
+     display: block;
+     position: relative;
+   
+	&__input{
+        width: 100%;
+		border-radius: 10px;
+		border: 1px solid #fff;
+		padding-left: 10px;
+		font-size: .8rem;
+        height: 60px;
+		
+		}
+	&__text-input{
+        border-radius: 10px;
+		border: 1px solid #fff;
+		width: 100%;
+		height:140px;
+		padding-left: 10px;
+		font-size: .8rem;
+		padding-top: 10px;
+
+	}
+
+	&__text{
+
+		 float: left;
+		 position: relative;
+		 margin-bottom: 1rem;
+		 margin: 0 2rem 1rem 0;
+		 width: 100%;
+
+		@mixin atMedium{
+		  
+          width: 40%;
+		}
+
+		
+
+        
+		&> select {
+			color:#777;
+		}
+
+	}
+
+
+	&__textarea{
+
+		width: 100%;
+		@mixin atMedium{
+        width: 85%;
+
+		}
+
+	}
+
+   
+}

@@ -1,0 +1,73 @@
+.row{
+
+	
+@mixin clearfix;
+
+&--gutters{
+	margin-right: -30px;
+}
+
+&--gutters-large{
+
+	margin-right: -80px;
+}
+
+
+&--gutters > div{
+
+	padding-right: 30px;
+}
+
+&--gutters-large > div{
+
+padding-right: 80px;
+}
+
+
+
+
+
+@mixin atMedium{
+
+	&__medium-3{
+		float: left;
+		width: 25%;
+	}
+   
+	&__medium-4{
+
+		float: left;
+		width: 33.33%;
+
+	}
+	&__medium-4-small{
+     float: left;
+     width:25%;
+	}
+	&__medium-4-large{
+      float: left;
+      width:41.66%;
+	}
+
+	&__medium-6{
+
+		float:left;
+		width: 50%;
+	}
+
+
+	&__medium-6-large{
+     
+     float: left;
+     width: 62%;
+
+	}
+     
+     &__medium-6-small{
+
+         float: left;
+         width: 38%;
+     }
+
+}
+}

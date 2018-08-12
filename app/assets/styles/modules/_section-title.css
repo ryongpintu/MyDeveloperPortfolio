@@ -1,0 +1,94 @@
+.section-title{
+        font-size:2.2rem;
+		font-weight: 400;
+		color:#393939;
+		margin-bottom: 0;
+		text-align: center;
+        letter-spacing: -1px;
+		@mixin atMedium{
+          text-align:left;
+
+		}
+
+     &__bar{
+     	
+    color: #d9d9d9;
+    display: block;
+    text-align: center;
+    font-size: 5em;
+    line-height: 0;
+    margin-bottom: 50px;
+    margin-top: -12px;
+    
+    
+		@mixin atMedium{
+          text-align: left;
+         
+		}
+
+
+	}
+
+&__bar-blog{
+     	
+    color: #d9d9d9;
+    display: block;
+    text-align: center;
+    font-size: 5em;
+    line-height: 0;
+    margin-bottom: 4.5rem;
+    margin-top: -12px;
+    
+    
+		@mixin atMedium{
+          text-align: center;
+         
+	
+}
+}
+
+&__bar-work{
+     	
+    color: #d9d9d9;
+    display: block;
+    text-align: center;
+    font-size: 4.5em;
+    line-height: 0;
+    margin-bottom: 4.5rem;
+    margin-top: -12px;
+    
+    
+		@mixin atMedium{
+          text-align: center;
+         
+		}
+     
+     &-contact{
+
+     	color: rgba(255,255,255,.8);
+     }
+
+	}
+
+   &__blog{
+     
+      font-size:2rem;
+		font-weight: 400;
+		color:#393939;
+		text-align: center;
+		margin-bottom: 0;
+
+       	
+      &-contact-title{
+
+	color: #FFF;
+}
+    }
+
+
+&__contact{
+
+	color: #FFF;
+}
+    
+}

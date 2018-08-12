@@ -1,0 +1,95 @@
+.blog{
+ 
+    background: #ffffff;
+    box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    text-align: left;
+    margin-bottom: 30px;
+    overflow: hidden;
+    height: 593px;
+    
+    @mixin atMedium{
+    	height: 350px;
+    }
+
+     
+
+    &__image{
+    	overflow: hidden;
+         height: 350px;
+         @mixin atMedium{
+        float: left;
+    	width: 45%;
+         }
+        
+    }
+
+    &__text-content{
+       padding: 45px 25px;
+
+       @mixin atMedium{
+    	padding: 74px 25px;
+        float: left;
+        width: 55%;
+        }
+      }
+
+      &__icons{
+        width: 8px;
+      	height: 8px;
+      	margin-right: 5px;
+      	color: #ce3232;
+
+      	@mixin atMedium {
+         width:10px;
+      	height: 10px;
+      	margin-right: 10px;
+
+      	}
+      }
+
+      &__date{
+    color: #ce3232;
+    font-weight: 500;
+    display: block;
+      font-size: .7rem;
+    @mixin atMedium{
+      
+      font-size: .8rem;
+
+    }
+      }
+
+      &__title{
+            
+            font-size: 1rem;
+      	    color: #252525;
+      	    font-weight: normal;
+            
+      	    &:hover{
+
+      	    	  color: #ce3232;
+                  outline: none;
+
+      	    }
+
+      	    @mixin atMedium{
+              font-size: 1.2rem;
+
+      	    }
+
+      }
+
+      &__description{
+        
+      	margin-bottom: 2.875rem;
+
+      	@mixin atMedium{
+
+      		font-size: .8rem;
+      	}
+
+      }
+
+
+}
