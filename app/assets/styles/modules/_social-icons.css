@@ -1,0 +1,19 @@
+.social-icons{
+      
+        height: 72px;
+        text-align: center;
+ 
+	&__icon{
+       height: 35px;
+        width: 35px;
+        margin:15px 5px 5px 5px;
+        background-color: white;
+		display: inline-block;
+		position: relative;
+
+		@mixin atMedium{
+			
+			margin:0px 5px 5px 5px;
+		}
+	}
+}

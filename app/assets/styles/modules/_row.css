@@ -1,15 +1,30 @@
 .row{
 
-	
+&__border{
+
+	border-bottom: 1px solid rgba(255,255,255,.1);
+	margin-bottom: 2.5rem;
+	padding-bottom: 2rem;
+
+	@mixn atMedium{
+
+	margin-bottom: 2rem;
+	padding-bottom: 2rem;
+	}
+}	
 @mixin clearfix;
 
 &--gutters{
 	margin-right: -30px;
 }
+&--gutters-medium{
+
+	margin-right: -80px;
+}
 
 &--gutters-large{
 
-	margin-right: -80px;
+	margin-right: -100px;
 }
 
 
@@ -18,9 +33,13 @@
 	padding-right: 30px;
 }
 
+&--gutters-medium >div{
+	padding-right: 80px;
+}
+
 &--gutters-large > div{
 
-padding-right: 80px;
+padding-right: 100px;
 }
 
 
@@ -28,6 +47,12 @@ padding-right: 80px;
 
 
 @mixin atMedium{
+
+	&__medium-2{
+
+		float: left;
+		width: 15%;
+	}
 
 	&__medium-3{
 		float: left;

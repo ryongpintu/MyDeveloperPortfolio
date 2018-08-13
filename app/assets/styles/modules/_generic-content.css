@@ -3,7 +3,7 @@
 	p{
     line-height: 1.2;
 	color: #757575;
-    font-size: .8rem;
+    font-size: .94rem;
     font-weight: 300;
        
 
@@ -23,6 +23,18 @@ h3{
 
     		margin-top:1.2rem;
     	}
+    }
+
+    &-footer{
+
+    	
+
+    	p{
+
+    		color: rgba(255,255,255,.8);
+    	}
+
+    	
     }
 
 }

@@ -1,0 +1,55 @@
+.footer{
+    text-align: center;
+    @mixin atMedium{
+
+    	 text-align: left;
+    }
+	background: linear-gradient(to right, #434343, #000000);
+	color: rgba(255,255,255,.9);
+	a{
+		color: rgba(255,255,255,.8);
+		font-weight: 300;
+		
+	}
+
+	&__link{
+		list-style: none;
+		padding-left: 0;
+        
+		li{
+            
+			padding-bottom: 7px;
+
+			@mixin atMedium{
+				padding-bottom: 10px;
+			}
+
+
+		}
+	}
+
+	&__title{
+
+		margin-top: 3rem;
+	}
+
+	&__phone{
+
+		width: fit-content;
+		display: inline-block;
+		font-size: .8rem;
+		font-weight: 300;
+
+	}
+	&__callus-text{
+
+		margin-left: 10px;
+
+	}
+
+	&__copy-right{
+
+font-size: .9rem;
+font-weight: 300;
+	}
+}
