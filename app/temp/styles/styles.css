@@ -401,6 +401,7 @@ a{
        letter-spacing: -1px;
        text-align: center;
        margin-top: 0;
+       margin-top: 100px;
     }
 
 @media (min-width: 800px) {
@@ -445,7 +446,7 @@ a{
     	font-size: .8rem;
     	max-width: 180px;
     	margin-left: 20px;
-    	margin-top: 8px
+    	margin-top: 10px
 
 
 
@@ -762,12 +763,13 @@ padding: 2rem 0;
         display: block;
         margin-right: auto;
         margin-left: auto;
+        font-size: 1rem;
     }
 
 @media (min-width: 800px) {
 
 .btn__project{
-             font-weight: 400;
+            font-weight: 400;
         	float: left
     }
 	}
@@ -820,6 +822,17 @@ padding: 2rem 0;
     	margin-top: 1rem;
 
     	
+    }
+
+.btn__signin{
+
+    	padding: 10px 20px;
+    	background-color: red;
+    	border-radius: 20px;
+    	border: 1px solid red;
+
+    	font-size: .9rem;
+    	font-weight: 400;
     }
 
 .about-section{
@@ -1366,3 +1379,114 @@ background-image:url('/temp/sprite/css/sprite-7f931b5a.svg');
 			margin:0px 5px 5px 5px
 	}
 	}
+
+.site-header{
+	position: absolute;
+	z-index: 2;
+	background-color: transparent;
+     width: 100%;
+     height: 100px;
+}
+
+.site-header__btn-container{
+         
+     	float: right;
+     }
+
+.site-header__logo{
+         
+         padding: 30px 0;
+     	float: left;
+     	font-size: 2rem;
+     	font-weight: 700;
+     }
+
+.site-header__logo a{
+     	color: rgba(255,255,255,1);
+
+     }
+
+.site-header__menu-content{
+
+     	display: none;
+     }
+
+@media (min-width: 800px) {
+
+.site-header__menu-content{
+
+     		display: block
+     }
+	}
+
+.site-header__menu-icon{
+
+     	width: 20px;
+     	height: 20px;
+     	background-color: #FFF;
+     	top:35px;
+     	right:20px;
+     	position: absolute;
+     }
+
+@media (min-width: 800px) {
+
+.site-header__menu-icon{
+
+     		display: none
+     }
+	}
+
+.primary-nav{
+   height: 100px;
+   padding:40px 0;
+
+}
+
+.primary-nav ul{
+   	margin: 0;
+   	padding: 0;
+   }
+
+.primary-nav ul::after{
+
+		content: "";
+		clear: both;
+		display: table;
+
+}
+
+.primary-nav a{
+
+   	color: rgba(255,255,255,1);
+   }
+
+.primary-nav a:hover{
+
+   		color:red;
+   	}
+
+.primary-nav__pull-left{
+     
+   	float: left;
+   	margin-left: 180px;
+
+   }
+
+.primary-nav__pull-left li{
+     list-style: none;
+   	float: left;
+   	padding-right: 50px;
+   }
+
+.primary-nav__pull-right{
+
+		float: right;
+
+	}
+
+.primary-nav__pull-right li{
+     list-style: none;
+   	float: left;
+   	padding-right: 20px;
+   }

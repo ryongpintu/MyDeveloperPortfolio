@@ -1,0 +1,44 @@
+.primary-nav{
+   height: 100px;
+   padding:40px 0;
+
+   ul{
+   	margin: 0;
+   	padding: 0;
+   	@mixin clearfix;
+   }
+   
+
+   a{
+
+   	color: rgba(255,255,255,1);
+
+   	&:hover{
+
+   		color:red;
+   	}
+   }
+
+   &__pull-left{
+     
+   	float: left;
+   	margin-left: 180px;
+   	 li{
+     list-style: none;
+   	float: left;
+   	padding-right: 50px;
+   }
+
+   }
+   &__pull-right{
+
+		float: right;
+		 li{
+     list-style: none;
+   	float: left;
+   	padding-right: 20px;
+   }
+
+	}
+
+}
