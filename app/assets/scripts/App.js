@@ -1,4 +1,3 @@
-var Personx = require('./modules/Person');
-alert("Hi I am done");
-var johnppp = new Personx("pintu","blue");
-johnppp.greet();
+import MobileMenu from './modules/MobileMenu';
+
+var mobileMenu = new MobileMenu();

@@ -64,14 +64,31 @@
     }
 
     &__signin{
-
-    	padding: 10px 20px;
+        
+    	
     	background-color: red;
-    	border-radius: 20px;
-    	border: 1px solid red;
+    	border-radius: 40px;
+        padding: 15px 40px;
+    	transition: all 0.5s ease-out;
+        font-weight: 400;
+        cursor: pointer;
+        
+       &:hover{
+         
+         background: linear-gradient(to right ,#1573d2a6, #32aed67a, #09e04bd4);
+  
+    }
+       @mixin atMedium{
+          padding: 10px 7px;
+        font-size: .8rem;
 
-    	font-size: .9rem;
-    	font-weight: 400;
+       }
+
+       @mixin atLarge{
+           padding: 10px 20px;
+           font-size: .9rem;
+         
+       }
     }
 }
 

@@ -4,7 +4,7 @@
 	height:100vh;
     background: linear-gradient(to right ,#1573d2a6, #32aed67a, #09e04bd4), url('../../assets/images/home-bg.jpg') top center no-repeat;
     background-size: cover;
-
+     
     
     
     &__dev-image{
