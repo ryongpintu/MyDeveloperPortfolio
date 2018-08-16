@@ -64,6 +64,9 @@ padding-right: 100px;
 		float: left;
 		width: 33.33%;
 
+
+
+
 	}
 	&__medium-4-small{
      float: left;
@@ -92,6 +95,12 @@ padding-right: 100px;
 
          float: left;
          width: 38%;
+     }
+
+     &__medium-12{
+
+     	width: 100%;
+     	float: left;
      }
 
 }

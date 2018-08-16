@@ -1,14 +1,32 @@
 .primary-nav{
    
-   height: 180px;
+  
     
-    
+    .site-header--dark &{ 
+
+         img{
+            background-color: rgba(0,0,0,.7);
+            border-radius: 3px;
+           } 
+        
+    li{
+     padding-top: 13px;
+
+
+   }
+
+   a{
+
+    color: rgba(0,0,0,.8);
+   }
+
+      }
     
    @mixin atMedium{
       background-color:transparent;
-      height: 100px;
+      height: 70px;
 
-   }
+      }
 
    ul{
    	padding: 0;
@@ -30,20 +48,26 @@
       font-weight: 400;
         @mixin atMedium{
           color: rgba(255,255,255,1);
+          &.is-current-link{
 
+            color: red;
+          }
+          
         }
+        @mixin atLarge{
+                 font-size: 1rem;
+                }
    	&:hover{
 
    		color:red;
    	}
 
 
-      
-      
-   }
+
+}
    &__pull-left{
 
-      
+       
 
        li{
 
@@ -67,21 +91,31 @@
        }
               @mixin atMedium{
                 margin-left: 50px;
-                font-size: .9rem;
+                
 
                
                 }
               @mixin atLarge{
                 margin-left: 180px;
-                font-size: 1rem;
+                
                 }
    }
 
    
    &__pull-right{
+
+    img{
+
+      height: 15px;
+      width: 15px;
+      background-color: rgba(0,0,0,.7);
+    }
+
+
      a{
 
-        
+          
+
           color: white;
       
       }
@@ -99,6 +133,13 @@
            
            margin-left: 0;
            transform: translateX(0);
+
+           img{
+
+            background-color: transparent;
+           }
+
+
       }
 
       li{
@@ -113,10 +154,11 @@
          float: left;
         padding-right: 15px;
 
+
       }
        @mixin atLarge{
         padding-right: 20px;
-
+ 
       }
 
       }
@@ -126,6 +168,21 @@
    }
    
 
-	
+	&--modal-box{
+  
+
+    
+  a{
+
+    color: #FFF;
+    cursor: pointer;
+  }
+    li{
+       
+      list-style: none;
+      display: inline-block;
+      padding-right: 20px;
+    }
+  }
 
 }

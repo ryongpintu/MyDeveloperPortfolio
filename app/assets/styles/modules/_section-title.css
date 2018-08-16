@@ -90,5 +90,10 @@
 
 	color: #FFF;
 }
-    
+    &__modal{
+
+      font-size: 1.5rem;
+      color: #FFF;
+      text-align: center;
+    }
 }

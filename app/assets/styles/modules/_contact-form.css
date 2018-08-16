@@ -2,6 +2,7 @@
      width: 100%;
      display: block;
      position: relative;
+
    
 	&__input{
         width: 100%;
@@ -10,7 +11,19 @@
 		padding-left: 10px;
 		font-size: .8rem;
         height: 60px;
-		
+		 
+
+
+   &-signin-form{
+     height: 40px;
+      width: 100%;
+		border-radius: 10px;
+		border: 1px solid #fff;
+		padding-left: 10px;
+		font-size: .8rem;
+		 margin-bottom: 10px;
+
+   }
 		}
 	&__text-input{
         border-radius: 10px;
@@ -56,5 +69,35 @@
 
 	}
 
-   
+	&-sign_up{
+
+		display: block;
+
+		&--is-visible{
+         display: block;
+
+		}
+
+		&--is-not-visible{
+
+			display: none;
+		}
+		
+	}
+&-sign_in{
+
+		display: none;
+
+		&--is-visible{
+         display: block;
+
+		}
+
+		&--is-not-visible{
+
+			display: none;
+		}
+
+	}
+
 }
