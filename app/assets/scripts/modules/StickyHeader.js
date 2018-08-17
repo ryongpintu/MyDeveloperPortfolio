@@ -5,7 +5,7 @@ class StickyHeader{
 
 
 	constructor(){
-
+        this.lazyImages=$(".lazyload");
 		this.siteHeader=$(".site-header");
 		this.triggerElement=$(".home-section");
 		this.createWaypoints();
@@ -13,8 +13,18 @@ class StickyHeader{
 		this.headerLinks = $(".primary-nav a");
 		this.createPageSectionWaypoints();
 		this.addSmoothScrolling();
+		this.waypointsRefresh();
 
 
+
+	}
+
+	waypointsRefresh(){
+
+		this.lazyImages.on('load',function(){
+
+          Waypoint.refreshAll();
+		});
 	}
 
 addSmoothScrolling(){
