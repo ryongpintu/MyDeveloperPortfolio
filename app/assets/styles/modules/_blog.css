@@ -83,19 +83,22 @@
       	@mixin atMedium {
          width:10px;
       	height: 10px;
-      	margin-right: 10px;
+      	
 
       	}
       }
 
       &__date{
+    width: 100%;
     color: #ce3232;
     font-weight: 500;
     display: block;
-      font-size: .7rem;
+    font-size: .7rem;
     @mixin atMedium{
-      
+      margin-top: 0;
       font-size: .8rem;
+
+      
 
     }
       }
