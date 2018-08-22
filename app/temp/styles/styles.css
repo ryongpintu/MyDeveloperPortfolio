@@ -372,7 +372,7 @@ a{
 }
 
 .home-section.lazyloaded{
-    background: linear-gradient(to right ,#1573d2a6, #32aed67a, #09e04bd4), url('../../assets/images/home-bg.jpg') top center no-repeat;
+    background: linear-gradient(to right,#1573d2a6, #32aed67a, #09e04bd4), url('../../assets/images/home-bg.jpg') top center no-repeat;
     background-size: cover;
      }
 
@@ -1824,19 +1824,19 @@ background-image:url('../../assets/images/sprites/sprite-319202ef.png');
            }
 
 .site-header--dark .primary-nav li{
-     padding-top: 13px;
+             padding-top: 13px;
 
 
-   }
+           }
 
 .site-header--dark .primary-nav a{
 
-    color: rgba(0,0,0,.8);
-   }
+              color: rgba(0,0,0,.8);
+             }
 
 .site-header--dark .primary-nav a.btn__signin{
-    color: white;
-      }
+              color: white;
+                }
 
 @media (min-width: 800px) {
 
