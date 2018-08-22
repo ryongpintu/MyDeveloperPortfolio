@@ -11,7 +11,7 @@ var config ={
 
         spacing:{
 
-        	padding:2
+        	padding:1
         }
 	},
 

@@ -9,20 +9,20 @@
             border-radius: 3px;
            } 
         
-    li{
-     padding-top: 13px;
+            li{
+             padding-top: 13px;
 
 
-   }
+           }
 
-   a{
+             a{
 
-    color: rgba(0,0,0,.8);
-   }
-  a.btn__signin{
-    color: white;
+              color: rgba(0,0,0,.8);
+             }
+            a.btn__signin{
+              color: white;
+                }
       }
-   }
     
    @mixin atMedium{
       background-color:transparent;
